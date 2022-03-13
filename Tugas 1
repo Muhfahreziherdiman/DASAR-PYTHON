@@ -41,4 +41,33 @@ print("pajak:", pajak)
 print("potongan:", potongan)
 print("gaji_bersih:", gaji_bersih)
 
+#operator penugasan
+x=15
+x+=5
+print(x)
+x-=3
+print(x)
+x*=4
+print(x)
+x/=2
+print(x)
+x%=7
+print(x)
+x**=6
+print(x)
+x//=3
+
+#percabangan Elif
+umur = 19
+if (umur > 17 and umur < 25):
+  print("sudah beranjak dewasa")
+elif(umur >= 25 and umur < 35):
+  print("masa masa emas")
+elif(umur >= 35 and umur < 45):
+  print("masa paruh baya")
+elif(umur>= 45):
+  print("masa manula")
+else:
+  print("masih dibawah umur")
+
 
