@@ -1,0 +1,44 @@
+#tipe data
+String("")
+Float(1.23)
+Intejer(10)
+Boolean(True, False)
+
+#pengecekan tipe data
+nama = "fahrezi"
+umur = 19
+tinggi = 1.60
+kuliah = True
+print(type(nama))
+print(type(umur))
+print(type(tinggi))
+print(type(kuliah))
+
+#operator aritmatika
+com1 = 6
+com2 = 4
+#penjumlahan
+print(com1 + com2)
+#pengurangan
+print(com1 - com2)
+#perkalian
+print(com1 * com2)
+
+#tantangan
+(nama  ="muh fahrezi herdiman D0221348"
+gaji_pokok =1000000
+gaji_lembur =5000 * 48
+gaji_kotor =gaji_pokok + gaji_lembur
+pajak = 10/100
+potongan =pajak* 1000000
+gaji_bersih =gaji_kotor - potongan
+
+print("nama:", nama)
+print("gaji_pokok:", gaji_pokok)
+print("gaji_lembur:", gaji_lembur)
+print("gaji_kotor:", gaji_kotor)
+print("pajak:", pajak)
+print("potongan:", potongan)
+print("gaji_bersih:", gaji_bersih)
+
+
